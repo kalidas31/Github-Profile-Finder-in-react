@@ -1,7 +1,7 @@
 import React from 'react';
 //import Searchautocomplete from './components/search-autocomplete-with-api';
-import TicTacToe from './components/Tic-Tac-Toe';
-//import Githubprofilefinder from './components/github-profile-finder';
+//import TicTacToe from './components/Tic-Tac-Toe';
+import Githubprofilefinder from './components/github-profile-finder';
 //import notes from './components/keeperpjt/notes';
 //import Header from './components/keeperpjt/Header';
 //import Note from './components/keeperpjt/Note';
@@ -33,9 +33,9 @@ function App() {
        {/*<Scrollindicator url={'https://dummyjson.com/products?limit=100'}/>*/}
        {/*<Tabtest/>*/}
        {/*<Modeltest/>*/}
-       {/* <Githubprofilefinder/> */}
+       <Githubprofilefinder/> 
        {/* <Searchautocomplete/> */}
-       <TicTacToe/>
+       {/*<TicTacToe/>*/}
     </div>
   );
 }
